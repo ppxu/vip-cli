@@ -7,13 +7,13 @@ A simple CLI for scaffolding Vue.js projects in VIP.
 Prerequisites: [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/).
 
 ``` bash
-$ npm install -g vue-cli
+$ npm install -g vip-cli
 ```
 
 ### Usage
 
 ``` bash
-$ vue init webpack my-project
+$ vip init webpack my-project
 $ cd my-project
 $ npm install
 $ npm run dev
