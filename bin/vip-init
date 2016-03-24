@@ -30,10 +30,10 @@ program.on('--help', function () {
   console.log('  Examples:')
   console.log()
   console.log(chalk.gray('    # create a new project with an official template'))
-  console.log('    $ vue init webpack my-project')
+  console.log('    $ vip init webpack my-project')
   console.log()
   console.log(chalk.gray('    # create a new project straight from a github template'))
-  console.log('    $ vue init username/repo my-project')
+  console.log('    $ vip init username/repo my-project')
   console.log()
 })
 
