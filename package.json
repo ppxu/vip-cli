@@ -1,13 +1,10 @@
 {
   "name": "vip-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple CLI for scaffolding Vue.js projects in VIP.",
   "preferGlobal": true,
   "bin": {
     "vip": "bin/vip"
-  },
-  "scripts": {
-    "test": "mocha"
   },
   "repository": {
     "type": "git",

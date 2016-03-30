@@ -13,7 +13,7 @@ $ npm install -g vip-cli
 ### Usage
 
 ``` bash
-$ vip init webpack my-project
+$ vip init vips my-project
 $ cd my-project
 $ npm install
 $ npm run dev

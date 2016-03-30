@@ -100,7 +100,11 @@ function run () {
   } else {
     // use official templates
     if (!hasSlash) {
-      template = 'vuejs-templates/' + template
+      if (template === 'vips') {
+        template = 'ppxu/template-vips'
+      } else {
+        template = 'vuejs-templates/' + template
+      }
     }
     // download and generate
     var tmp = '/tmp/vue-template-' + uid()
